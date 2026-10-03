@@ -1,0 +1,21 @@
+Package: lebesgueFDA
+Type: Package
+Title: Functional Data Analysis under Send-on-Delta Sampling
+Version: 0.1.0
+Authors@R: person("Ufuk", "Beyaztas", email = "ufuk.beyaztas@marmara.edu.tr",
+    role = c("aut", "cre"), comment = c(ORCID = "0000-0002-5208-4950"))
+Description: Estimation and identification for samples of curves recorded by
+    send-on-delta (Lebesgue) sampling, under which a curve is stored only when
+    it has moved a fixed distance from its last stored value. The package
+    computes the records exactly, reconstructs each curve by its held, chord
+    or midpoint path, and estimates the mean, the covariance and the
+    functional principal components from an exact Gram matrix, without
+    quadrature. Under a known Lipschitz bound it gives the sharp envelopes of
+    the paths compatible with a record, the closed-form identification width,
+    the Chebyshev center and radius of the identified set of means, and
+    finite-sample simultaneous bands for the identified mean. Generators for
+    the six simulation designs of the accompanying paper are included.
+License: GPL (>= 3)
+Encoding: UTF-8
+Depends: R (>= 3.5.0)
+Imports: stats
