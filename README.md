@@ -127,7 +127,7 @@ A signal stored on a dense grid can be recorded exactly with `sod_encode()`, whi
 |---|---|
 | Records | `sod_record()`, `sod_encode()`, `sod_encode_sample()`, `sod_encode_curve()`, `sod_readings()`, `sod_compatible()` |
 | Reconstructions | `held_path()`, `chord_path()`, `midpoint_path()`, `sod_envelopes()`, `sod_paths()`, `sod_reconstruct()` |
-| Mean, covariance and principal components | `sod_fpca()`, `sod_mean()`, `sod_cov()`, `sod_eigenfunctions()`, `predict()` |
+| Mean, covariance, and principal components | `sod_fpca()`, `sod_mean()`, `sod_cov()`, `sod_eigenfunctions()`, `predict()` |
 | Identification and bands | `sod_width()`, `sod_width_range()`, `sod_band()`, `sod_linear_bounds()`, `sod_midpoint_risk()` |
 | Simulation designs | `sim_sod()`, `sim_coefficients()`, `sim_records()`, `sim_curves()`, `design_truth()` |
 | Working with paths | `path_linear()`, `path_eval()`, `path_inner()` |
