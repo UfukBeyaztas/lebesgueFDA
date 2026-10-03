@@ -30,7 +30,7 @@ install.packages("devtools")
 devtools::install_github("UfukBeyaztas/lebesgueFDA")
 ```
 
-The package needs R 3.5.0 or later and no packages beyond `stats`, which comes with R. It contains no compiled code, so you do not need Rtools or another compiler.
+The package needs R 3.5.0 or later.
 
 ## Documentation
 
