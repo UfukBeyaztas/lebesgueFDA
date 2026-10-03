@@ -145,7 +145,7 @@ A signal stored on a dense grid can be recorded exactly with `sod_encode()`, whi
 | D5 | X(t) = A + B t with Gaussian A and B | random lines; the pooled target is 1.1578 t |
 | D6 | piecewise linear stationary Gaussian process | the pooled covariance smoother has the wrong sign at some pairs of times |
 
-The simulations in the paper use n = 100, 300 and 900 curves, the thresholds δ = 0.10, 0.05 and 0.025, and losses on [0.1, 0.9]. Because `sim_coefficients()` and `sim_records()` are separate, the same curves can be recorded at several thresholds.
+The simulations in the paper use n = 100, 300, and 900 curves, the thresholds δ = 0.10, 0.05, and 0.025, and losses on [0.1, 0.9]. Because `sim_coefficients()` and `sim_records()` are separate, the same curves can be recorded at several thresholds.
 
 ## License
 
